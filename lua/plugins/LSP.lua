@@ -3,7 +3,6 @@ return {
     "nvim-treesitter/nvim-treesitter",
     opts = function(_, opts)
       vim.list_extend(opts.ensure_installed, {
-        -- Ensure cpp and c syntax highlighting is installed
         -- Add any languages you want auto-installed here
         ensure_installed = {
           "cpp",

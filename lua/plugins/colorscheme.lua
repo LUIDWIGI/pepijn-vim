@@ -18,7 +18,6 @@ return {
     name = "nightfly",
     lazy = true,
     priority = 1000,
-    opts = {},
   },
 
   {
