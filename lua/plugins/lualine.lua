@@ -31,6 +31,9 @@ return {
                 info = icons.diagnostics.Info,
                 hint = icons.diagnostics.Hint,
               },
+              colored = true, -- Displays diagnostics status in color if set to true.
+              update_in_insert = true, -- Update diagnostics in insert mode.
+              always_visible = true, -- Show diagnostics even if there are none.
             },
             { "filetype", icon_only = true, separator = "", padding = { left = 1, right = 0 } },
             { "filename", path = 1, symbols = { modified = "  ", readonly = "", unnamed = "" } },

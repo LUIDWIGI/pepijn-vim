@@ -51,6 +51,7 @@
   "vim-code-dark": { "branch": "master", "commit": "080b38a0fd14d14e21cf85fc26b18415303c3c5e" },
   "vim-illuminate": { "branch": "master", "commit": "49062ab1dd8fec91833a69f0a1344223dd59d643" },
   "vim-one": { "branch": "master", "commit": "ace2c99c1f93968ded48b5d391afa1307a965246" },
+  "vim-pio": { "branch": "master", "commit": "9e17deef82671c53915ef701c2ab2b12b62712f8" },
   "vim-repeat": { "branch": "master", "commit": "8106e142dfdc278ff3eaaadd7b362ad7949d4357" },
   "vim-startuptime": { "branch": "master", "commit": "5f52ed26e0296a3e1d1453935f417e5808eefab8" },
   "which-key.nvim": { "branch": "main", "commit": "5224c261825263f46f6771f1b644cae33cd06995" }
