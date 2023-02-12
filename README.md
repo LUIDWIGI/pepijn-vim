@@ -1,23 +1,17 @@
-# LazyVim
-
-A starter template for [LazyVim](https://github.com/LazyVim/LazyVim)
+# PepijnVim
 
 ## 🚀 Getting Started
 
-This repo contains an example setup for
-[LazyVim](https://github.com/LazyVim/LazyVim)
-
-### 1. Make a backup of your current Neovim files:
+### 1. Install neovim (example with chocolatey)
 
 ```sh
-mv ~/.config/nvim ~/.config/nvim.bak
-mv ~/.local/share/nvim ~/.local/share/nvim.bak
+choco install neovim --pre
 ```
 
 ### 2. Clone the starter
 
 ```sh
-git clone https://github.com/LazyVim/starter ~/.config/nvim
+git clone https://github.com/LUIDWIGI/pepijn-vim %LOCALAPPDATA%/nvim
 ```
 
 ### 3. Start Neovim!
@@ -26,20 +20,28 @@ git clone https://github.com/LazyVim/starter ~/.config/nvim
 nvim
 ```
 
-Refer to the comments in the files on how to customize **LazyVim**.
-
 ## 📂 File Structure
 
 <pre>
-~/.config/nvim
+%LOCALAPPDATA%/nvim
 ├── lua
-│   ├── config
-│   │   ├── autocmds.lua
-│   │   ├── keymaps.lua
-│   │   ├── lazy.lua
-│   │   └── options.lua
-│   └── plugins
-│       └── example.lua
+│   ├── config
+│   │   ├── autocmds.lua
+│   │   ├── keymaps.lua
+│   │   ├── lazy.lua
+│   │   └── options.lua
+│   └── plugins
+|       └── autocompletion.lua
+|       └── bufferline.lua
+|       └── colorscheme.lua
+|       └── example.lua
+|       └── LSP.lua
+|       └── lualine.lua
+|       └── mini_animate.lua
+|       └── neotree.lua
+|       └── nvim-navic.lua
+|       └── splashscreen.lua
+|       └── toggleterm.lua
 ├── init.lua
 └── stylua.toml
 </pre>
