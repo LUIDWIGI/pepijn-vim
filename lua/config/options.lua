@@ -15,3 +15,6 @@ local powershell_options = {
 for option, value in pairs(powershell_options) do
   vim.opt[option] = value
 end
+
+vim.opt.expandtab = false -- Use tabs instead of spaces
+vim.opt.completeopt = "menu,menuone,noselect,noinsert,preview" -- Disable automatically inserting first autocomplete option

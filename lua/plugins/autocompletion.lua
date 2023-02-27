@@ -1,4 +1,5 @@
 return {
+
   {
     "L3MON4D3/LuaSnip",
     keys = function()
@@ -23,7 +24,12 @@ return {
       local cmp = require("cmp")
       opts.sources = cmp.config.sources(vim.list_extend(opts.sources, { { name = "emoji" } }))
 
+      opts.completion = {
+        completeopt = "menu,menuone,noinsert,noselect",
+      }
+
       opts.mapping = vim.tbl_extend("force", opts.mapping, {
+        ["<CR>"] = cmp.mapping.confirm({ select = false }),
         ["<Tab>"] = cmp.mapping(function(fallback)
           if cmp.visible() then
             cmp.select_next_item()
