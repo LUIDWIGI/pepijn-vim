@@ -18,3 +18,9 @@ end
 
 vim.opt.expandtab = false -- Use tabs instead of spaces
 vim.opt.completeopt = "menu,menuone,noselect,noinsert,preview" -- Disable automatically inserting first autocomplete option
+
+-- Neovide support
+-- Add any neovide settings in here
+if vim.g.neovide then
+  vim.g.neovide_fullscreen = true -- Make neovide launch in fullscreen borderless windowed at startup
+end
