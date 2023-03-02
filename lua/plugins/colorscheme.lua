@@ -21,9 +21,21 @@ return {
   },
 
   {
+    "loctvl842/monokai-pro.nvim",
+    lazy = true,
+    priority = 1000,
+    opts = {
+      --transparent_background = true,
+      terminal_colors = true,
+      devicons = true, -- highlight the icons of `nvim-web-devicons`
+      italic_comments = true,
+    },
+  },
+
+  {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "nightfly",
+      colorscheme = "monokai-pro",
     },
   },
 }
