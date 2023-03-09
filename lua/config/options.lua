@@ -22,6 +22,6 @@ vim.opt.completeopt = "menu,menuone,noselect,noinsert,preview" -- Disable automa
 -- Neovide support
 -- Add any neovide settings in here
 if vim.g.neovide then
-  vim.g.neovide_fullscreen = true -- Make neovide launch in fullscreen borderless windowed at startup
+  vim.g.neovide_fullscreen = false -- Make neovide launch in fullscreen borderless windowed at startup
   -- vim.g.neovide_transparency = 0.8 -- Added transparency to the terminal background.
 end
