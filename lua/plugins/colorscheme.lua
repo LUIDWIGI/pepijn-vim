@@ -33,9 +33,24 @@ return {
   },
 
   {
+    "NTBBloodbath/sweetie.nvim",
+    opts = {
+      integrations = {
+        lazy = true,
+        telescope = true,
+      },
+      overrides = {
+        Comment = { italic = true },
+        CommentBold = { italic = true },
+        Class = { italic = true },
+      },
+    },
+  },
+
+  {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "monokai-pro",
+      colorscheme = "sweetie",
     },
   },
 }
