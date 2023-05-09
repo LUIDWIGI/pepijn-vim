@@ -55,11 +55,11 @@ return {
       })
     end,
   },
-  {
+  --[[ {
     "gelguy/wilder.nvim",
     opts = {
       modes = { ":", "/", "?" },
       accept_key = "<CR>",
     },
-  },
+  }, ]]
 }

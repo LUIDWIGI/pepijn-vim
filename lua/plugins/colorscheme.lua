@@ -1,25 +1,13 @@
 return {
   {
-    "rakr/vim-one",
-    opts = {
-      one_allow_itallics = 1, -- Enable colorscheme comment itallics
-    },
-  },
-
-  {
-    "tomasiser/vim-code-dark",
-    opts = {
-      codedark_italics = 1, -- Enable colorscheme comment itallics
-    },
-  },
-
-  {
-    "bluz71/vim-nightfly-colors",
-    name = "nightfly",
-    lazy = true,
+    "olimorris/onedarkpro.nvim",
     priority = 1000,
+    opts = {
+      styles = {
+        comments = "italic",
+      },
+    },
   },
-
   {
     "loctvl842/monokai-pro.nvim",
     lazy = true,
@@ -52,7 +40,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "catppuccin",
+      colorscheme = "onedark",
     },
   },
 }
